@@ -28,11 +28,11 @@
         <div class="row">
             <div class="five columns">
                 <label for="od">Od</label>
-                <input id="od" name="od" class="u-full-width" type="number" min="1930" max="2020">
+                <input id="od" name="od" class="u-full-width" type="number" min="1930" max="2020" required>
             </div>
             <div class="five columns">
                 <label for="do">Do</label>
-                <input id="do" name="do" class="u-full-width" type="number" min="1930" max="2020">
+                <input id="do" name="do" class="u-full-width" type="number" min="1930" max="2020" required>
             </div>
             <div class="two columns submit">
                 <button class="button-primary" type="submit">Zobrazit</button>
@@ -45,7 +45,7 @@
         <div class="row">
             <div class="ten columns">
                 <label for="prijmeni">Začátek příjmení</label>
-                <input id="prijmeni" name="prijmeni" class="u-full-width" type="search">
+                <input id="prijmeni" name="prijmeni" class="u-full-width" type="search" required>
             </div>
             <div class="two columns submit">
                 <button class="button-primary" type="submit">Zobrazit</button>
@@ -58,7 +58,7 @@
         <div class="row">
             <div class="ten columns">
                 <label for="obec">Obec</label>
-                <input id="obec" name="obec" class="u-full-width" type="search">
+                <input id="obec" name="obec" class="u-full-width" type="search" required>
             </div>
             <div class="two columns submit">
                 <button class="button-primary" type="submit">Zobrazit</button>
@@ -71,7 +71,7 @@
         <div class="row">
             <div class="ten columns">
                 <label for="vek">Starší než</label>
-                <input id="vek" name="vek" class="u-full-width" type="number" placeholder="18">
+                <input id="vek" name="vek" class="u-full-width" type="number" placeholder="18" required>
             </div>
             <div class="two columns submit">
                 <button class="button-primary" type="submit">Zobrazit</button>
